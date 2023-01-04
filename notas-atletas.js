@@ -43,9 +43,9 @@ function obterMedia(){
             let media = notasComputadas.reduce(function(total, atual){
                 return total + atual
             },0);
-           medias[i] = (media/notasComputadas.length).toFixed(2);// toFixed(2) qtos digitos depois da virgula
+           medias[i] = (media/notasComputadas.length).toFixed(2);
         }
-        return medias; // retorno a media
+        return medias; 
     }
 for (let i = 0; i < atletas.length; i++) {
   console.log("Nome: " + nomeAtletas[i])
